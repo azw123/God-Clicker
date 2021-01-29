@@ -12,9 +12,13 @@ var player = {
         currencyGenerated: 100
     }
 }
-//base gameplay
 
+//hide and show
 $("#counter").hide();
+$(".whole").hide();
+$("#auto1").show();
+if(currency>50) $("#auto2").fadeIn(500);
+//base gameplay
 function gp(amount){
     currency+=amount;
     $("#counter").text("God Points: " + currency)
