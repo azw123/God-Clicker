@@ -3,22 +3,27 @@
     <head>
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" href="stylesheet.css">
+        <meta charset = "utf-8">
     </head>
     <body>
         <div>
             <button id = "base-button" style="display: block; margin: 0 auto;" onclick = "gp(1);">Earn God Points!</button>
         </div>
         <p id = "counter">God Points</p>
-        <script src = "script.js"></script>
         <div style = "text-align:right">
             <div class = "whole" id = "auto1">
                 <button onclick = "add('dryads')">Dryads</button>
-                <p id = "Dryads">Dryads: 0</p>
+                <p id = "Dryads">
+                    Price: 10<br>
+                    Dryads: 0</p>
             </div>
             <div class = "whole" id = "auto2">
                 <button onclick = "add('naiads')">Naiads</button>
-                <p id = "Naiads">Naiads : 0</p>
+                <p id = "Naiads">
+                    Price: 100 <br>
+                    Naiads : 0</p>
             </div>
         </div>
+        <script src = "script.js"></script>
     </body>
 </html>
